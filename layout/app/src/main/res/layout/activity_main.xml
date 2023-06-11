@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#121415"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/GasSensorValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="85dp"
+        android:layout_marginLeft="50dp"
+        android:text="Gas Sensor value  "
+        android:background="@drawable/edit_background"
+        android:textSize="23sp"
+        android:padding="5dp"
+        android:textStyle="bold"
+        android:layout_marginStart="50dp" />
+
+    <TextView
+        android:id="@+id/GasSensorValue_reading"
+        android:layout_toRightOf="@id/GasSensorValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_background"
+        android:hint="    640     "
+        android:layout_marginTop="85dp"
+        android:layout_marginLeft="30dp"
+        android:padding="5dp"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:layout_toEndOf="@id/GasSensorValue" />
+
+    <TextView
+        android:id="@+id/GasWeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gas Weight             "
+        android:background="@drawable/edit_background"
+        android:padding="5dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="25dp"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:layout_below="@id/GasSensorValue"/>
+
+    <TextView
+        android:id="@+id/GasWeight_Value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_background"
+        android:hint="17.35 Kg"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="25dp"
+        android:padding="5dp"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:layout_below="@id/GasSensorValue_reading"
+        android:layout_toRightOf="@id/GasWeight"/>
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gas Weight by image"
+        android:layout_below="@id/GasWeight"
+        android:padding="5dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="135dp"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="255dp"
+        android:layout_height="278dp"
+        android:layout_below="@id/text1"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/empty" />
+
+
+</RelativeLayout>

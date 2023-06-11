@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "810749097634",
+    "project_id": "loginintership",
+    "storage_bucket": "loginintership.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:810749097634:android:dd89ea2c79f7de005e89fb",
+        "android_client_info": {
+          "package_name": "eu.tutrial.login_intership"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "810749097634-hhm90or0tev9d7r95uu86dcmvsk1orc0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQLUKrrRX29ZY1KnU-Nr1vQ1UxBsbiLuM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "810749097634-hhm90or0tev9d7r95uu86dcmvsk1orc0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

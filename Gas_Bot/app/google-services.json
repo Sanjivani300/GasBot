@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "742414441374",
+    "project_id": "gas-bot-25776",
+    "storage_bucket": "gas-bot-25776.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:742414441374:android:8fcdfcd517357f339c148f",
+        "android_client_info": {
+          "package_name": "eu.tutrial.gas_bot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "742414441374-sdqfs5par46fnp7n92no10cj721jk6h9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNk5AD8QqT0eF_Ql2okr1jZpAxTvRsL3g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "742414441374-sdqfs5par46fnp7n92no10cj721jk6h9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
